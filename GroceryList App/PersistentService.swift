@@ -11,7 +11,6 @@ import CoreData
 
 class PersistentService {
     // MARK: - Core Data stack
-    private init(){}
     
     static var context: NSManagedObjectContext{
         return persistentContainer.viewContext
